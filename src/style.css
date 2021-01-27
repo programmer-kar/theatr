@@ -11,7 +11,7 @@ body {
 .header-container {
     padding-top: 60px;
     padding-left: 10%;
-    padding-right: 20%;
+    padding-right: 10%;
     display: flex;
     justify-content: space-between;
 }
@@ -49,7 +49,6 @@ body {
 .card_1 {
     width: 580px;
     height: 650px;
-
 }
 .card-img {
     width: 580px;
@@ -82,4 +81,46 @@ body {
     padding-top: 20px;
     color: white;
     
+}
+
+.about-rest{
+    display: flex;
+    flex-direction: column;
+    align-items:center;
+    background: linear-gradient(to bottom, white 70%, #E5E5E5  0%);
+}
+.about-img{
+    padding-top: 60px;
+    width: 920px;
+    height: 475px;
+}
+.text-1 {
+    font-size: 36px;
+    line-height: 52px;
+    padding-top: 122px;
+    text-align: center;
+}
+.logo-rest{
+    padding-left: 20%;
+}
+.description-cards{
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+}
+.text-description{
+    font-size: 14px;
+    color: grey;
+    font-weight: 300;
+    
+}
+.description-title{
+    display: flex;
+    flex-direction: row;
+}
+.description-section-1{
+    padding-left: 20%;
+}
+.description-section-2{
+    display: grid;
+    grid-template-columns: repeat(2,2fr);
 }

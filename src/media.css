@@ -1,14 +1,113 @@
 @media screen and (max-width:1280px) {
-    .main-container{
-        max-width: 800px;
+    .header-container {
+        padding-top: 60px;
+        padding-left: 5%; 
+        padding-right: 5%; 
+        display: flex;
+        justify-content: space-between;
     }
-    .card_1 {
-        width: 200px;
-        height: 200px;
+    
+    .hello-banner {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
     }
-  
+    .card_2 {
+        padding-top: 50px;
+    }
+    .card_3 {
+        padding-top: 50px;
+    }
+    
+
+}
+@media screen and (max-width:1024px) {
 
     
-   
+    .header-container {
+        padding-top: 60px;
+        padding-left: 3%;
+        padding-right: 3%;
+        display: flex;
+        justify-content: space-between;
+    }
+   .header-link {
+
+        margin: 0px 5px;
+        text-decoration: none;
+        color: black;
+        font-weight: bold;
+        font-size: 10px;
+        letter-spacing: 3px;
+    }
+
+    .main-logo{
+        width: 100px;
+    }
+
+}
+@media screen and (max-width:800px) {
+    .main-container{
+        margin: 0 auto;
+    }
+
+    .header-container {
+        padding-top: 30px;
+        padding-left: 5%;
+        padding-right: 5%;
+        /* display: flex; */
+        /* justify-content: space-between; */
+    }
+    .header-link {
+        display: none;
+        
+    }
+    .main-logo{
+        width: 100px;
+    }
+}
+@media screen and (max-width:600px) {
+    .card-img {
+        width: 290px;
+        height: 325px;
+    }
+    .card_1{
+        width: 290px;
+        height: 325px;
+    }
+    .card_3{
+        width: 290px;
+        height: 325px;
+    }
+    .card_2{
+        width: 290px;
+        height: 325px;
+    }
+    .hello-banner {
+        display: flex;
+        flex-direction: column;
+        padding-top: 30px;
+        padding-left: 0;
+        padding-right: 0;
+        justify-content: space-between;
+        align-items: center;
+    }
+    .bg-card-title {
+        margin-top: -85px;
+        width: 290px;
+        height: 83px;
+        
+    }
+    .card-title {
+        font-size: 15px;
+        padding-top: 18px;
+    
+    }
+    .card-description {
+        font-size: 10px;
+        padding-top: 20px;
+        
+    }
+  
 }
 
