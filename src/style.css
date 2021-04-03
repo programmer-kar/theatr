@@ -210,4 +210,50 @@ body {
 
 }
 
+.find_about_us{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.about_us_img{
+    padding-top: 60px;
+    width:70%;
+    height: 600px;
+}
+.about_us_text{
+    font-size: 72px;
+    text-transform: uppercase;
+    color: white;
+}
+.about_us_main{
+    display: flex;
+    flex-direction: column;
+    align-items:center;
+    margin-top: -450px;
+}
+
+.about_us_cta{
+    margin-top: 100px;
+    display:flex;
+    flex-direction: row;
+
+}
+
+
+.download_plan{
+    width: 255px;
+    height: 64px;
+    background-color: white;
+    font-size: 20px;
+    border: white;
+}
+
+.dewnload_presentation{
+    margin-left: 15%;
+    width: 350px;
+    height: 64px;
+    background-color: white;
+    font-size: 20px;
+    border: white;
+}
 
