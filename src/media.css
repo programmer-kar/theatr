@@ -156,11 +156,8 @@
 
     }
     .insta_img{
-      
-    
         padding-left:5%;
         padding-top: 20px;
-        
     }
     .text_1 {
         padding-left: 10%;
@@ -234,7 +231,7 @@
     .description-section-2{
         display: flex;
         flex-direction: column;
-        margin-top: -70px;
+        margin-top: -90px;
     }
     .description-card{
         margin-top: 30px;
@@ -251,7 +248,101 @@
     .logo-rest {
         padding-left: 0px;
     }
-    
+    .text-description{
+        padding-bottom: 5%;
+    }
+    .gallery-first-row{
+    flex-direction: column;
+    }
+    .first-row-blade-1{
+        margin-top: -20%;
+    }
+    .gallery-first-row{
+        padding-left: 0%;
+    }
+    .first-row-img-1{
+        display: flex;
+        align-items: center;
+        padding-left: 0px;
+    }
+    .text-gallery{
+        padding-right: 0%;
+    }
+    .first-row-img2{
+        margin-top: 10%;
+        margin-left: 0%;
+        display: flex;
+        align-self: center;
+    }
+    .first-row-img3{
+        margin-left: 0%;
+        display: flex;
+        margin-top: 10%;
+        align-self: center;
+        width: 296px;
+        height: 200px;
+    }
+    .gallery-second-row{
+        display: none;
+    }
+    .second-row-img1{
+        display: flex;
+        align-self: center;
+        width: 296px;
+        height: 200px;
+    }
+
+    .gallery-second-row-column {
+        display: none;
+    }
+    .about_us_img{
+        height: 400px;
+    }
+    .about_us_text{
+        margin-top: 40%;
+        font-size: 24px;
+    }
+    .about_us_cta{
+        flex-direction: column;
+        align-items: center;
+       
+        
+    }
+    .dewnload_presentation{
+        margin-top: 5%;
+        margin-left: 0px;
+    }
+    .contact{
+        margin-top: 20%;
+        margin-left: 0%;
+        margin-right: 0%;
+    }
+    .icon{
+        width: 15px;
+        height: 32px;
+    }
+    .row_1 {
+       
+        margin-bottom: 10px;
+        margin-right: 10px;
+    }
+    input, textarea {
+        font: 1em sans-serif;
+        width: 80%;
+        margin-bottom: 35px;
+    }
+    .insta_img {
+        width: 160px;
+        height: 142px;
+        padding-left: 0%;
+        
+    }
+    .insta_gallery {
+      
+        padding-right: 0%;
+    }
+
+
   
 }
 
